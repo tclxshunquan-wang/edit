@@ -13,7 +13,7 @@ importers:
         version: 0.0.11
       '@fmhy/components':
         specifier: ^0.0.3
-        version: 0.0.3(typescript@5.8.2)(vitepress@1.6.3(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
+        version: 0.0.3(typescript@5.8.2)(vitepress@1.6.4(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
       '@headlessui/vue':
         specifier: ^1.7.23
         version: 1.7.23(vue@3.5.13(typescript@5.8.2))
@@ -51,8 +51,8 @@ importers:
         specifier: 66.1.0-beta.3
         version: 66.1.0-beta.3(vite@5.4.14(@types/node@20.16.12)(sass@1.85.1)(terser@5.39.0))(vue@3.5.13(typescript@5.8.2))
       vitepress:
-        specifier: ^1.6.3
-        version: 1.6.3(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2)
+        specifier: ^1.6.4
+        version: 1.6.4(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.2)
@@ -5089,8 +5089,8 @@ packages:
       terser:
         optional: true
 
-  vitepress@1.6.3:
-    resolution: {integrity: sha512-fCkfdOk8yRZT8GD9BFqusW3+GggWYZ/rYncOfmgcDtP3ualNHCAg+Robxp2/6xfH1WwPHtGpPwv7mbA3qomtBw==}
+  vitepress@1.6.4:
+    resolution: {integrity: sha512-+2ym1/+0VVrbhNyRoFFesVvBvHAVMZMK0rw60E3X/5349M1GuVdKeazuksqopEdvkKwKGs21Q729jX81/bkBJg==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -6595,10 +6595,10 @@ snapshots:
 
   '@fmhy/colors@0.0.11': {}
 
-  '@fmhy/components@0.0.3(typescript@5.8.2)(vitepress@1.6.3(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))':
+  '@fmhy/components@0.0.3(typescript@5.8.2)(vitepress@1.6.4(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       typescript: 5.8.2
-      vitepress: 1.6.3(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2)
+      vitepress: 1.6.4(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2)
       vue: 3.5.13(typescript@5.8.2)
 
   '@headlessui/vue@1.7.23(vue@3.5.13(typescript@5.8.2))':
@@ -10518,7 +10518,7 @@ snapshots:
       sass: 1.85.1
       terser: 5.39.0
 
-  vitepress@1.6.3(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2):
+  vitepress@1.6.4(@algolia/client-search@5.21.0)(@types/node@20.16.12)(change-case@5.4.4)(nprogress@0.2.0)(postcss@8.5.3)(sass@1.85.1)(terser@5.39.0)(typescript@5.8.2):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.21.0)

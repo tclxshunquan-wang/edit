@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Field from './CardField.vue'
-import ColorPicker from './ColorPicker.vue'
 import InputField from './InputField.vue'
 import ToggleStarred from './ToggleStarred.vue'
 </script>
@@ -25,7 +24,5 @@ import ToggleStarred from './ToggleStarred.vue'
         <ToggleStarred />
       </template>
     </InputField>
-
-    <ColorPicker />
   </div>
 </template>
